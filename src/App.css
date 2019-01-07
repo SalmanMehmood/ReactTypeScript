@@ -1,0 +1,198 @@
+.App {
+  text-align: center;
+}
+body{
+  background-image: url('./image/bg.jpeg')
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+td {
+  text-align: center
+}
+input[type=text], select {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=number], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=submit] {
+  width: 20%;
+  background-color: #055342;
+  color: white;
+  padding: 14px 20px;
+  margin-left: 25px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.check1 th{
+  font-size: 20px;
+  color: rgba(4, 4, 56, 0.9);
+}
+.Details{
+  cursor: pointer;
+}
+.Details_Box{
+  height: 230px;
+  width: 250px;
+  border: 2px solid black;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+} 
+li img {
+  height: 100px;
+  
+}
+.MainDiv{
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+.cardStyle1{
+  height: auto;
+  width: 22.5%;
+  margin-right: 3.33%; 
+  margin-bottom: 2%;
+  margin-top: 2%;
+  box-shadow: 1px 1px 12px black !important
+}
+
+.cardStyle2{
+  height: auto;
+  width: 22.5%;
+  margin-right: 3.33%;
+  margin-bottom: 2%;
+  margin-top: 2%;
+  box-shadow: 1px 1px 12px black !important
+}
+
+.cardStyle3{
+  height: auto;
+  width: 22.5%;
+  margin-right: 3.33%;
+  margin-bottom: 2%;
+  margin-top: 2%;
+  box-shadow: 1px 1px 12px black !important
+}
+.cardStyle4{
+  height: auto;
+  width: 22.5%;
+  margin-bottom: 2%;
+  margin-top: 2%;
+  box-shadow: 1px 1px 12px black !important
+}
+.image{
+  width: 100%;
+  height: auto;
+}
+p{
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  font-size: 13px;
+  color: red;
+}
+p strong{
+  text-align: center
+}
+.detailsDiv{
+  text-align: 'center';
+  box-shadow: 1px 1px 12px gray;
+
+}
+.detailsCard{
+  margin: 0px auto;
+  height: auto;
+  width: 50%;
+  margin-top: 1%;
+  box-shadow: 1px 1px 12px black !important
+}
+.fontSize{
+  cursor: pointer;
+  font-size: 25px;
+  text-align: center;
+}
+.icon{
+  text-align: center !important;
+  color: blue ;
+}
+.icon_btn{
+  width: 50%;
+  color: darkred ;
+}
+.addtocart{
+  font-size: 25px;
+  color: white;
+}
+#cartbtn{
+  width: 12% !important;
+  margin-right: 38px;
+  font-size: 20px;
+  background-color: black;
+  color: whitesmoke !important;
+}
+.cardPurchase{
+  margin: auto;
+  width: 25%;
+  height: auto;
+  box-shadow: 1px 1px 12px gray;
+}
+.cartImage{
+  width: 100%;
+  height: auto;
+}
+#remove{
+  background-color: red;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+h3{
+  float: right;
+  margin-right: 8%; 
+}
+.checkOutBtn{
+  background-color: #054747;
+  color: white;
+  cursor: pointer;
+}
+.icon_btn_check{
+  width: 50%;
+  color: darkgreen ;
+}
